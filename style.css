@@ -1,0 +1,49 @@
+#code-editor {
+    height: 500px;
+    width: 70%;
+}
+
+#out-div {
+    height: 500px;
+    border-left: 10px;
+    background-color: white;
+    width: 30%;
+    overflow: auto;
+}
+
+#editor-parent {
+    margin: 3px;
+}
+
+.my-button {
+    padding:0.3em 1.2em;
+    margin:2em 0.2em;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF !important;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    font-family:'Roboto',sans-serif;
+}
+
+.my-button.tab-button {
+    opacity: 0.5;
+}
+
+.my-button:hover, .my-button.tab-button.selected {
+    border-color: rgba(255,255,255,1);
+    opacity: 1;
+}
+
+#buttons-container {
+    border: 2px solid rgb(68, 68, 68);
+    background-color: rgb(153, 153, 153);
+    border-radius:2em;
+    padding: 15px;
+    margin: 10px auto;
+    width: fit-content;
+    height: fit-content;
+}
